@@ -4,11 +4,11 @@
 
 This is a fork of Luiz Pereira's great [Opinio](https://github.com/Draiken/opinio) gem for Rails 3+.
 
-It intends to utilize [Twitter Bootstrap](http://twitter.github.com/bootstrap/) styling out-of-the-box.
+It intends to simply utilize [Twitter Bootstrap](http://twitter.github.com/bootstrap/) styling in views out-of-the-box.
 
 In particular, it utilizes the media-object component.  
 
-Currently it requires an image_url(:thumb) method (the default for [Carrierwave](https://github.com/jnicklas/carrierwave)) for your User object; If you are set up with Devise + Bootstrap and are storing an image on the User, styling will include the User's avatar along with a link to the user, along with the comment and associated links.  
+Currently it requires an image_url(:thumb) method (the default for [Carrierwave](https://github.com/jnicklas/carrierwave)) for your User object; If you are set up with Bootstrap and are storing an image on the User, styling will include the User's avatar along with a link to the user, along with the comment and associated links.  
 
 That's
 
