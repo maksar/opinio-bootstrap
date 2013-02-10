@@ -8,9 +8,9 @@ It intends to simply utilize [Twitter Bootstrap](http://twitter.github.com/boots
 
 In particular, it utilizes the media-object component.  
 
-Currently it requires an image_url(:thumb) method (the default for [Carrierwave](https://github.com/jnicklas/carrierwave)) for your User object; If you are set up with Bootstrap and are storing an image on the User, styling will include the User's avatar along with a link to the user, along with the comment and associated links.  
+Currently it requires an image_url(:thumb) method (the default for [Carrierwave](https://github.com/jnicklas/carrierwave)) for your User object; If you are set up with Bootstrap and are storing an image on the User, styling will automatically include the User's avatar along with a link to the user, along with the comment and associated links.  
 
-That's
+So you need a valid call to
 
     @user.image_url(:thumb).to_s
     
