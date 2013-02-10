@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.authors     = [ "Luiz Felipe Garcia Pereira", "Richard Carey" ]
-  s.email       = [ "luiz.felipe.gp@gmail.com", "rdcarey@gmail.com" ]
+  s.email       = [ "luiz.felipe.gp@gmail.com", "rc@rcdmcg.com" ]
 
   s.homepage    = "https://github.com/rceee/opinio-bootstrap"
 
