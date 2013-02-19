@@ -16,6 +16,12 @@ So you need a valid call to
     
 for the avatar image (media object).
 
+If your user image thumbnail method requires a different call, be sure to generate out the views using
+
+    rails g opinio:views
+    
+And edit the comments view file to change this line to match your method.  That should be all that is required.
+
 To do: make dynamic the method by which User's image is called; provide a default stock placeholder image for those not utilizing an image mounting system for their User object (e.g. Carrierwave/Paperclip).
 
 Make sure Bootstrap is in your Rails *Gemfile*:
