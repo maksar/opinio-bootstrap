@@ -1,7 +1,7 @@
 <% reply = defined?(reply) ? reply : false %>
 <div id="comment_<%= comment.id %>" class="media">
 <a class="pull-left" href="<%= user_path(comment.owner) %>">
-  <img class="media-object" src="<%= comment.owner.image_url(:thumb).to_s %>" />
+  <img class="media-object img-polaroid" src="<%= comment.owner.image_url(:thumb).to_s %>" />
   <span><%= comment.owner.name.titlecase %></span>
   </a>
   <div class="media-body">

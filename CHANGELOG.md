@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0.3
+
+* Added polaroid styling to user image in comments section
+
 ## 0.6.0.2 (beta1)
 
 * Updated form views to use Twitter Bootstrap 2 styling (media object)
