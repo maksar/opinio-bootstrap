@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0.4
+
+* Updated README to explain how to use custom user image method
+
 ## 0.6.0.3
 
 * Added polaroid styling to user image in comments section
