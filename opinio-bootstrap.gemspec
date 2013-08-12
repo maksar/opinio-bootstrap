@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.summary     = "A rails 3 engine for comments, with Twitter Bootstrap styling."
   s.description = 'Opinio is an engine used to add comments functionallity to rails 3 applications; this version is adapted to Twitter Bootstrap.'
 
-  s.add_dependency( 'rails', '~> 3' )
+  s.add_dependency( 'rails', '~> 4' )
   s.add_dependency( 'kaminari' )
   s.add_dependency( 'jquery-rails' )
   s.add_dependency( 'bootstrap-sass', ">= 2.2.2.0" )
